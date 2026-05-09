@@ -1,0 +1,4 @@
+# Log-Pipeline
+Motor de detección con parseo de logs JSON y reglas Sigma-like.
+Solo lab. Diseñado para integración con SIEM/ELK.
+MITRE: T1050, T1110

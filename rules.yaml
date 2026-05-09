@@ -1,0 +1,6 @@
+- title: Suspicious PowerShell
+  level: high
+  detection: {selection: {keyword: "powershell.*-enc"}, condition: selection}
+- title: Brute Force SSH
+  level: medium
+  detection: {selection: {keyword: "Failed password"}, condition: selection}
